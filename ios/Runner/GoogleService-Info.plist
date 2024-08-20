@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1064312758567-ppn3dk0mdjnbeu29eenu5s3m7oichvr3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1064312758567-ppn3dk0mdjnbeu29eenu5s3m7oichvr3</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1064312758567-sfhce1jnneiufsfna429ao030h9l0cbq.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCTSfAcFlRkYdBkdHQxqYyjaY5_IjN4z1c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1064312758567</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.healthHorizonWebos</string>
+	<key>PROJECT_ID</key>
+	<string>health-horizon-5577</string>
+	<key>STORAGE_BUCKET</key>
+	<string>health-horizon-5577.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1064312758567:ios:15cb9e296c38967a988902</string>
+	<key>DATABASE_URL</key>
+	<string>https://health-horizon-5577-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
