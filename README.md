@@ -22,6 +22,12 @@ flutter pub get
 
 ### 3. Run the App
 
+#### Android/IOS
+
+```bash
+flutter run
+```
+
 #### Web
 
 ```bash
@@ -33,10 +39,6 @@ flutter run -d chrome
 ```bash
 flutter run -d windows   # Replace with macos or linux as needed
 ```
-
-#### WebOS
-
-> WebOS setup instructions go here (e.g., using Enact or custom packaging tools).
 
 ---
 
