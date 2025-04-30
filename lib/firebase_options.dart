@@ -45,10 +45,9 @@ class DefaultFirebaseOptions {
           'DefaultFirebaseOptions have not been configured for linux - '
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
+
       default:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions are not supported for this platform.',
-        );
+        throw webConfig;
     }
   }
 
@@ -59,8 +58,18 @@ class DefaultFirebaseOptions {
     projectId: 'health-horizon-5577',
     databaseURL: 'https://health-horizon-5577-default-rtdb.firebaseio.com',
     storageBucket: 'health-horizon-5577.appspot.com',
-    androidClientId: '1064312758567-sfhce1jnneiufsfna429ao030h9l0cbq.apps.googleusercontent.com',
-    iosClientId: '1064312758567-ppn3dk0mdjnbeu29eenu5s3m7oichvr3.apps.googleusercontent.com',
+    androidClientId:
+        '1064312758567-sfhce1jnneiufsfna429ao030h9l0cbq.apps.googleusercontent.com',
+    iosClientId:
+        '1064312758567-ppn3dk0mdjnbeu29eenu5s3m7oichvr3.apps.googleusercontent.com',
     iosBundleId: 'com.example.healthHorizonWebos',
   );
+  static const webConfig = FirebaseOptions(
+      apiKey: "AIzaSyD8aH6CaS6O3Hx1YMuJWwnVFu5qiv2gGV0",
+      authDomain: "health-horizon-5577.firebaseapp.com",
+      databaseURL: "https://health-horizon-5577-default-rtdb.firebaseio.com",
+      projectId: "health-horizon-5577",
+      storageBucket: "health-horizon-5577.appspot.com",
+      messagingSenderId: "1064312758567",
+      appId: "1:1064312758567:web:518846f108f08128988902");
 }
